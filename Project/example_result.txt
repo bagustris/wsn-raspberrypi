@@ -1,0 +1,103 @@
+pi@node5:~/Desktop/10.10.0.151/pf $ python test_pf.py 
+Loop 1 of 16
+RSSI Measurement from each node
+[49.01, 48.75, 49.0]
+Estimate node location
+[ 0.13262038  0.12035644]
+---------------------------------------------------
+Loop 2 of 16
+RSSI Measurement from each node
+[48.41, 48.29, 48.623333333333335]
+Estimate node location
+[ 0.13935795  0.13464338]
+---------------------------------------------------
+Loop 3 of 16
+RSSI Measurement from each node
+[48.55, 48.635, 49.01]
+Estimate node location
+[ 0.12801889  0.13939993]
+---------------------------------------------------
+Loop 4 of 16
+RSSI Measurement from each node
+[49.86, 49.83, 49.99333333333333]
+Estimate node location
+[ 0.10986672  0.13870578]
+---------------------------------------------------
+Loop 5 of 16
+RSSI Measurement from each node
+[49.89, 49.995, 50.02]
+Estimate node location
+[ 0.0980198   0.13483937]
+---------------------------------------------------
+Loop 6 of 16
+RSSI Measurement from each node
+[49.49, 49.42, 49.303333333333335]
+Estimate node location
+[ 0.09666503  0.13527866]
+---------------------------------------------------
+Loop 7 of 16
+RSSI Measurement from each node
+[49.52, 49.675, 49.51]
+Estimate node location
+[ 0.09130392  0.13341042]
+---------------------------------------------------
+Loop 8 of 16
+RSSI Measurement from each node
+[49.37, 49.22, 49.276666666666664]
+Estimate node location
+[ 0.09344007  0.13515979]
+---------------------------------------------------
+Loop 9 of 16
+RSSI Measurement from each node
+[49.32, 49.145, 49.12]
+Estimate node location
+[ 0.09661979  0.13742476]
+---------------------------------------------------
+Loop 10 of 16
+RSSI Measurement from each node
+[49.06, 49.28, 49.21]
+Estimate node location
+[ 0.09798162  0.13870163]
+---------------------------------------------------
+Loop 11 of 16
+RSSI Measurement from each node
+[48.86, 48.44, 48.39]
+Estimate node location
+[ 0.10095179  0.14028974]
+---------------------------------------------------
+Loop 12 of 16
+RSSI Measurement from each node
+[49.72, 49.91, 49.696666666666665]
+Estimate node location
+[ 0.09972855  0.13996229]
+---------------------------------------------------
+Loop 13 of 16
+RSSI Measurement from each node
+[48.93, 49.055, 48.92]
+Estimate node location
+[ 0.10016201  0.14024405]
+---------------------------------------------------
+Loop 14 of 16
+RSSI Measurement from each node
+[50.1, 50.37, 50.21]
+Estimate node location
+[ 0.09783989  0.13910965]
+---------------------------------------------------
+Loop 15 of 16
+RSSI Measurement from each node
+[49.31, 48.67, 48.60666666666667]
+Estimate node location
+[ 0.09955992  0.14011367]
+---------------------------------------------------
+Loop 16 of 16
+RSSI Measurement from each node
+[48.21, 48.1, 47.843333333333334]
+Estimate node location
+[ 0.1002171   0.14037554]
+---------------------------------------------------
+Final estimate node location
+[ 0.1002171   0.14037554]
+Real node location
+[0, 0]
+Position error
+0.172478285889
