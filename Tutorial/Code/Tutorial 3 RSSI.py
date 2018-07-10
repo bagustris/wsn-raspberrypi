@@ -5,10 +5,11 @@ landmarks_mac = [destination1_mac_address]
 
 def rssi_measurement(iter):
     # measure RSSI from landmarks for [iter] iterations
+    landmarks_rssi = []
     for node in landmarks_mac:
         for i in range(iter):
             
-            command = 'iw dev wlan0 station get ' + <destination_mac_address> + ' | egrep "signal:"'
+            command = 'iw dev wlan0 station get ' + node + ' | egrep "signal:"'
             
             ## this subprocess.check_output function is used to get the result from the input command shell script.
             proc = subprocess.check_output(command, shell=True)
@@ -21,8 +22,9 @@ def rssi_measurement(iter):
             ##'\t-48'
 	    RSSI = RSSI[2:]
 	    ##'48'
-            
-            
+            landmarks_rssi.append(int(RSSI))
+
+    landmarks_rssi = sum(landmarks_rssi)/float(iters)
     return landmarks_rssi
 
 ## main
