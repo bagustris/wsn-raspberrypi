@@ -16,11 +16,11 @@ def rssi_measurement(iter):
             ## try to do some text processing here to get the RSSI number output.
             
             buffer = proc.split(' ')
-			##['signal:', '', '\t-48', 'dBm']
-			RSSI = buffer[2]
+	    ##['signal:', '', '\t-48', 'dBm']
+	    RSSI = buffer[2]
             ##'\t-48'
-			RSSI = RSSI[2:]
-			##'48'
+	    RSSI = RSSI[2:]
+	    ##'48'
             
             
     return landmarks_rssi
