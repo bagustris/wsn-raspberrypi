@@ -1,4 +1,7 @@
-source_mac_address = ''
+import subprocess
+import sys
+
+#source_mac_address = ''
 destination1_mac_address = ''
 
 landmarks_mac = [destination1_mac_address]
@@ -24,8 +27,9 @@ def rssi_measurement(iter):
 	    ##'48'
             landmarks_rssi.append(int(RSSI))
 
-    landmarks_rssi = sum(landmarks_rssi)/float(iters)
+    landmarks_rssi = sum(landmarks_rssi)/float(iter)
     return landmarks_rssi
 
 ## main
-rssi_measurement(1)
+rssi = rssi_measurement(1)
+print(rssi)
