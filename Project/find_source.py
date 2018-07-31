@@ -5,6 +5,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import operator
+from numpy.random import seed
 
 node2_mac = 'b8:27:eb:12:55:da'
 node3_mac = 'b8:27:eb:f1:36:38'
@@ -113,6 +114,9 @@ def run_particle_filter(N, iters, sensor_std_err, do_plot, plot_particles, xlim,
     print('Begin run particle filter...')
     #plt.figure()
 
+    # to make experiment reproducible
+    seed(1)
+    
     particles = create_uniform_particles(xlim, ylim, N, landmarks)
 
     weights = np.zeros(N)
